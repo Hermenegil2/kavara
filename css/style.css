@@ -1,0 +1,64 @@
+#i{
+  font-family: Courier New;
+  font-size: 50px;
+}
+
+#imagen {
+  width: 200px;
+}
+
+
+p{
+
+ font-family: "Arial";
+ font-family: "Cursive" 
+  
+}
+
+h5{
+  font-size: 1px;
+}
+
+
+p{
+
+  color: #fff;
+}
+
+h1{
+  color:#FFFFFF;
+  font-family:Consolas,monospace;
+  position:relative;
+  float:left;
+  font-size:150%;
+}
+
+@keyframes escribiendo{
+  from{width:100%}
+  to{width:0}
+}
+
+@-webkit-keyframes escribiendo{
+  from{width:100%}
+  to{width:0}
+}
+
+@-moz-keyframes escribiendo {
+  from{width:100%}
+  to{width:0}
+}
+h1 span{
+  position:absolute;
+  top:0;
+  right:0;
+  width:0;
+  
+  border-left: .1em ;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  animation: escribiendo 5s steps(36, end);
+  -webkit-animation: escribiendo 5s steps(36, end);
+  -moz-animation: escribiendo 5s steps(36, end);
+}
+
